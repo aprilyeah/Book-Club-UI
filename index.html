@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Book Program Discussion</title>
+    <!-- author: April Chen, 2021-05-24 -->
+    <!-- all images used have Creative Commons -->
+    <!-- COMPSCI 345 Assignment 2: Registration form for a book club website -->
+
+    <!-- CSS template adapted using code from w3schools -->
+    <!-- Font from Google Fonts: Mate SC -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mate+SC">
+    <link rel="icon" type="image/png" href="logo.png" />
+</head>
+
+<body class="custom-background-color">
+
+    <div class="topnav custom-background-color">
+        <a class="active" href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#books">Books</a>
+        <a href="#get-started">Get Started</a>
+        <a href="#news">News</a>
+        <a href="#members">Members</a>
+        <button id="login" class="custom-color">Login</button>
+    </div>
+
+    <div class="custom-background-color">
+        <img src="logo.png" alt="BDP Logo of a Book" id="book">
+        <h1> Book Discussion Program</h1>
+    </div>
+
+    <img src="library.jpeg" alt="Library" id="library">
+
+    <div class="center">
+        <h1 id="bdp">Book Discussion Program</h1>
+        <p id="text">A non-profit organisation that lends books and professional discussion notes to participating book groups.</p>
+        <button class="register" id="trigger-modal">Register</button>
+
+    </div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div id="bookclubrego" class="modal-content custom-background-color">
+            <span class="close" title="Close">&times;</span>
+            <h2>Register a New Book Group</h2>
+
+            <form>
+                <div id="userDetails">
+                    <h3>User Details</h3>
+                    <label for="fname">Given name:</label><br>
+                    <input type="text" id="given" name="fname"><br>
+                    <label for="lname">Surname:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="password">Password:</label><br>
+                    <input type="text" id="password" name="password"><br>
+                </div>
+
+                <div id="addresses">
+                    <h3>Addresses</h3>
+                    <label for="hAddress">Home Address:</label><br>
+                    <input type="text" id="hAddress" name="hAddress"><br>
+                    <label for="wAddress">Work Address:</label><br>
+                    <input type="text" id="wAddress" name="wAddress"><br>
+                </div>
+
+                <div id="contacts">
+                    <h3>Contacts</h3>
+                    <label for="mobileNumber">Mobile Number:</label><br>
+                    <input type="text" id="mobileNumber" name="mobileNumber"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br><br>
+                    <input type="button" value="Submit" class="register custom-background-color"><br>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
