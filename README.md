@@ -4,7 +4,7 @@ High-fidelity prototype redesigning a book club website including a registration
 * Used css selector names for custom color and custom background colour. 
 * Used a button to trigger the registration form modal. 
 * Used Gestalt principles: Common Fate, Proximity, Colour, Balance, Emphasis, Unity, Colour
-* Included a logo
+* Included a logo.
 
 ![Book-Club-UI](Book-Club-UI.png)
 
@@ -37,6 +37,7 @@ way.
 - In the form, proximity is shown through the grouping of the User Details, Addresses and Contacts, which are separated by their corresponding headers. 
 
 **Balance**
+
 I have achieved a sense of balance through the minimalistic look of my website.
 - Symmetry:
   - The main contents of the home page have been positioned to be in the centre of the page. The text has been aligned to the center, the “Register” button is centered.
@@ -47,6 +48,7 @@ I have achieved a sense of balance through the minimalistic look of my website.
   - The navigation bar is also asymmetric with uneven weighting of text and elements on the left compared to the right. 
 
 **Emphasis**
+
 There are multiple elements I have chosen to emphasise, these can be narrowed down to:
 - Contrast:
   - The contrast between the dark assigned colour to the white text, makes the text stand out a lot, putting emphasis on the text.
