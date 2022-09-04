@@ -6,6 +6,8 @@ High-fidelity prototype redesigning a book club website including a registration
 * Used Gestalt principles: Common Fate, Proximity, Colour, Balance, Emphasis, Unity, Colour
 * Included a logo
 
+![Book-Club-UI](Book-Club-UI.png)
+
 ## Report
 ### Quality of User Experience
 - I have redesigned the original homepage of the book club website to look more professional, clean, and minimalistic. 
