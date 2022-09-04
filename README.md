@@ -75,8 +75,8 @@ There are multiple elements I have chosen to emphasise, these can be narrowed do
 Bookshelf image:
 https://cdn.pixabay.com/photo/2020/05/15/16/32/trinity-college-library-5174182_1280.jpg
 
-Code adapted from W3schools website (CSS, JS, HTML)
+Code adapted from W3schools website (CSS, JS, HTML):
 https://www.w3schools.com/
 
-Font from Google Fonts: Mate SC
+Font from Google Fonts - Mate SC:
 https://fonts.googleapis.com/css?family=Mate+SC
